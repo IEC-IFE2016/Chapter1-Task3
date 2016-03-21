@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: '.SFNSText-Regular', 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif,-apple-system,-apple-system-font;
+    text-rendering: optimizeLegibility;
+}
+body {
+    padding: 20px;
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+h3 {
+    padding: 5px 5px 5px 0;
+}
+p {
+    letter-spacing: 0.03rem;
+    word-wrap: break-word;
+}
+
+.container {
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+    padding: 20px;
+    overflow: hidden; /*子元素使用float后,父元素使用该属性可让子元素将父元素撑开*/
+}
+
+.logo {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    width: 200px;
+    height: 100%;
+    float: left;
+    padding: 20px;
+}
+.logo img {
+    float: left;
+}
+.logo h3 {
+    float: right;
+    padding: 20px;
+}
+
+.introduction {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-left: 262px;
+    margin-right: 142px;
+}
+
+.avatar {
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    float: right;
+    padding: 20px;
+    width: 80px;
+}
+.avatar img {
+    margin-top: 20px;
+    margin-left: 42px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: rgba(0,0,0,0);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: rgba(0,0,0,0);
+    -moz-box-shadow: rgba(0,0,0,0);
+    box-shadow: rgba(0,0,0,0);
+}
+.avatar img:first-child {
+    margin-top: 0;
+}
