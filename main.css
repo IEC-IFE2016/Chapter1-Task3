@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei UI";
+    min-width: 510px;
+}
+
+.container {
+    margin: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    border: #999999 solid 1px;
+}
+
+.left {
+    width: 158px;
+    border: #999999 solid 1px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+}
+
+.left img {
+    float: left;
+}
+
+.left div {
+    float: right;
+}
+
+
+.right {
+    width: 78px;
+    padding: 20px;
+    max-width: 120px;
+    border: #999999 solid 1px;
+    background-color: white;
+    float: right;
+}
+
+.clearfix {
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+.content {
+    word-break:break-word;
+    padding: 20px;
+    margin: 0px 140px 0px 220px;
+    background-color: white;
+    border: #999 solid 1px;
+}
+
+.right img+img{
+    margin-top: 20px;
+}
