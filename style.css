@@ -63,10 +63,6 @@ p {
 }
 .avatar img {
     margin-top: 20px;
-    margin-left: 42px;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
     border: rgba(0,0,0,0);
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
